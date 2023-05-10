@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Montserrat:wght@300&family=Outfit:wght@400;700&display=swap');
+:root{
+    --color-white:hsl(0, 0%, 100%) ;
+    --color-Light-gray: hsl(212, 45%, 89%);
+    --color-Grayish-blue: hsl(220, 15%, 55%);
+    --color-Dark-blue: hsl(218, 44%, 22%);
+    
+
+}
+*
+*::before
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: unset;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    font-size: 15px;
+    background-color: var(--color-Light-gray);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: Outfit sans-serif;
+   
+}
+img{
+    max-width: 100%;
+   height: auto;
+   border-radius: 0.675rem;
+
+}
+main{
+    background-color: var(--color-white);
+  max-width: 320px;
+  padding: 1.075rem;
+  border-radius: 1.35rem;
+  box-shadow: 0.16rem 1.6rem hsla(0, 0%, 0%, 0.05);
+  text-align: center;
+  margin: 1.075rem;
+}
+h3{
+    font-size: 1.375rem;
+  line-height: 1.275;
+  margin-top: 1.1en;
+  color: var(--color-Dark-blue);
+  font-weight: 700;
+}
+p{
+    line-height: 1.3;
+    color: var(--color-Dark-blue);
+    margin: 1.075em;
+ 
+
+}
